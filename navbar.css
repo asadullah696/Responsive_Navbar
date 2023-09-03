@@ -1,0 +1,423 @@
+nav.navbar{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(9vh);
+    width: calc(100vw);
+    border-bottom: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(163, 165, 165);
+}
+a.ataglist{
+    text-decoration: none;
+    color: rgb(193, 230, 108);
+    text-shadow: -3px 3px 3px rgb(141, 0, 0);
+}
+a.ataglist2{
+    text-decoration: none;
+    color: rgb(255, 184, 52);
+    text-shadow: -3px 3px 2px darkblue;
+}
+div.icon{
+    display: flex;
+    text-shadow: -3px 3px 4px lightgreen;
+    position: absolute;
+    width: calc(20vw);
+    height: calc(5vh);
+    margin-top: calc(0vh);
+    padding: 1.5px;
+    color: whitesmoke;
+    font-size: xx-large;
+    /* background-color: bisque; */
+    font-family: cursive;
+    margin-left: calc(2vw);
+}
+li.navli{
+    margin-left: 10px;
+    display: inline-block;
+    padding-left: 20px;
+    color: rgb(0, 255, 13);
+    font-size: larger;
+    text-shadow: 2px 2px 4px skyblue;
+    cursor: pointer;
+    border-left: 2px solid black;
+}
+div.menu{
+    display: none;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(90vw);
+    height: calc(4vh);
+    width: calc(4vw);
+    cursor: pointer;
+}
+img.menu{
+    display: inherit;
+    position: inherit;
+}
+ol.navol2{
+    display: none;
+    position: absolute;
+    top: calc(4.5vh);
+    left: calc(0vw);
+    height: calc(55vh);
+    width: calc(50vw);
+    background-color: rgb(158, 9, 9);
+}
+li.navli2{
+    list-style-type: none;
+    margin-top: calc(5vh);
+    font-size: calc(3vh);
+    top: calc(10vh);
+    height: calc(5vh);
+    width: inherit;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(133, 236, 252);
+    padding-bottom: calc(0.8vh);
+    cursor: pointer;
+}
+div.cutmenu{
+    display: none;
+    position: absolute;
+    top: calc(1.5vh);
+    left: calc(90vw);
+    height: calc(6vh);
+    width: calc(4vw);
+    cursor: pointer;
+}
+@media only screen and (min-width: 350px){
+    ul.navul{
+        display: none;
+    }
+    ul.navul2{
+        display: flex;
+    }
+    div.menu{
+        display: flex;
+        top: calc(3vh); 
+        width: calc(4vh);
+        left: calc(85vw);
+    }
+    ol.navol2{
+        display: none;
+        top: calc(7vh);
+        margin-left: calc(37vw);
+    }
+    li.navli2{
+        font-size: calc(2vh);
+    }
+    div.icon{
+        top: calc(1.4vh);
+        font-size: calc(4vh);
+    }
+    nav.navbar{
+        width: calc(100vw);
+    }
+}
+    @media only screen and (min-width: 400px){
+    ul.navul{
+        display: none;
+    }
+    ul.navul2{
+        display: flex;
+        width: calc(60vw);
+    }
+    div.menu{
+        display: flex;
+        left: calc(87vw);
+        top: calc(3.5vh);
+        width: calc(6vw);
+    }
+    ol.navol2{
+        display: none;
+        margin-top: calc(2.2vh);
+        margin-left: calc(30vw);
+        width: calc(60vw);
+    }
+    div.icon{
+        font-size: calc(4vh);
+    }
+    li.navli2{
+        font-size: calc(2vh);
+    }
+}
+@media only screen and (min-width: 500px){
+    ul.navul{
+        display: none;
+    }
+    ul.navul2{
+        display: flex;
+    }
+    div.menu{
+        display: flex;
+        top: calc(3vh);
+        left: calc(88vw);
+        width: calc(6vw);
+    }
+    ol.navol2{
+        display: none;
+        left: calc(2vw);
+    }
+    li.navli2{
+        font-size: calc(1.8vh);
+        width: calc(60vw);
+        left: calc(38vw);
+    }
+    div.icon{
+        font-size: calc(5vh);
+        margin-top: calc(-0.9vh);
+    }
+}
+@media only screen and (min-width: 600px){
+    ul.navul{
+        display: none;
+    }
+    ul.navul2{
+        display: flex;
+    }
+    div.icon{
+        font-size: calc(6vh);
+        margin-bottom: calc(-0.8vh);
+    }
+    div.menu{
+        display: flex;
+        left: calc(88vw);
+        top: calc(2.5vh);
+        width: calc(6vw);
+    }
+    ol.navol2{
+        display: none;
+        width: calc(62vw);
+    }
+}
+@media only screen and (min-width: 700px){
+    ul.navul{
+        display: none;
+    }
+    div.menu{
+        display: flex;
+        height: calc(5vh);
+        width: calc(6vw);
+        top: calc(2.5vh);
+        left: calc(90vw);
+    }
+    div.icon{
+        font-size: calc(7vh);
+    }
+    nav.navbar{
+        height: calc(10vh);
+    }
+    ol.navol2{
+        display: none;
+        margin-top: calc(3.1vh);
+    }
+}
+@media only screen and  (min-width: 800px){
+    div.menu{
+        display: none;
+    }
+    ol.navol2{
+        display: none;
+    }
+    ul.navul{
+        display: flex;
+        margin: calc(2.5vh) calc(0vw) calc(1.5vh) calc(63vw);
+        font-size: calc(1vh);
+    }
+    nav.navbar{
+        height: calc(6vh);
+        width: calc(100vw);
+    }
+    li.navli{
+        padding-left: calc(1vw);
+    }
+    div.icon{
+        font-size: calc(4vh);
+    }
+}
+@media only screen and (min-width : 895px){
+    ul.navul{
+        display: flex;
+        font-size: calc(1vh);
+        margin: calc(2.5vh) calc(0vw) calc(1.5vh) calc(65vw);
+    }
+    div.icon{
+        font-size: calc(4.5vh);
+    }
+    div.menu{
+        display: none;
+    }
+    ol.navol2{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1024px){
+    ul.navul{
+        display: flex;
+        font-size: calc(1.5vh);
+        margin: calc(2vh) calc(0vw) calc(1.5vh) calc(57vw);
+    }
+    div.icon{
+        font-size: calc(4vh);
+    }
+    div.menu{
+        display: none;
+    }
+    ol.navol2{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1280px){
+    ul.navul{
+        display: flex;
+        font-size: calc(1.5vh);
+        margin: calc(3.5vh) calc(0vw) calc(2vh) calc(65vw);
+    }
+    li.navli{
+        margin-top: calc(-1vh);
+    }
+    div.icon{
+        font-size: calc(5.2vh);
+    }
+    nav.navbar{
+        height: calc(7.5vh);
+    }
+    div.menu{
+        display: none;
+    }
+    ol.navol2{
+        display: none;
+    }
+    div.menu{
+        display: none;
+    }
+    ol.navol2{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1440px){
+    ul.navul{
+        display: flex;
+        font-size: calc(2vh);
+        margin: calc(3.5vh) calc(0vw) calc(0vh) calc(60vw);
+    }
+    li.navli{
+        margin-bottom: calc(2vh);
+    }
+    div.icon{
+        font-size: calc(5.3vh);
+    }
+    nav.navbar{
+        height: calc(8vh);
+    }
+    div.menu{
+        display: none;
+    }
+    ol.navol2{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1600px){
+    ul.navul{
+        display: flex;
+        font-size: calc(2vh);
+        margin: calc(4vh) calc(0vw) calc(1vh) calc(65vw);
+    }
+    li.navli{
+        margin-bottom: calc(2vh);
+    }
+    div.icon{
+        font-size: calc(5.5vh);
+    }
+    nav.navbar{
+        height: calc(9vh);
+    }
+    div.menu{
+        display: none;
+    }
+    ol.navol2{
+        display: none;
+    }
+    div.menu{
+        display: none;
+    }
+    ol.navol2{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1700px){
+    ul.navul{
+        display: flex;
+        font-size: calc(1.8vh);
+        margin-left: calc(65vw);
+        margin: calc(4.5vh) calc(0vw) calc(0.5vh) calc(67vw);
+    }
+    li.navli{
+        margin-bottom: calc(2vh);
+    }
+    div.icon{
+        font-size: calc(6vh);
+    }
+    nav.navbar{
+        height: calc(9vh);
+    }
+    div.menu{
+        display: none;
+    }
+    ol.navol2{
+        display: none;
+    }
+    div.menu{
+        display: none;
+    }
+    ol.navol2{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1800px){
+    ul.navul{
+        display: flex;
+        font-size: calc(2vh);
+        margin: calc(4vh) calc(0vw) calc(0.5vh) calc(65vw);
+    }
+    div.icon{
+        font-size: calc(5.5vh);
+        margin-top: 3px;
+    }
+    nav.navbar{
+        height: calc(9vh);
+    }
+    div.menu{
+        display: none;
+    }
+    ol.navol2{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1920px){
+    ul.navul{
+        display: flex;
+        font-size: calc(2vh);
+        margin: calc(4.5vh) calc(0vw) calc(0vh) calc(65vw);
+    }
+    div.icon{
+        font-size: calc(5.5vh);
+    }
+    nav.navbar{
+        height: calc(9vh);
+    }
+    div.menu{
+        display: none;
+    }
+    ol.navol2{
+        display: none;
+    }
+    div.menu{
+        display: none;
+    }
+    ol.navol2{
+        display: none;
+    }
+}
