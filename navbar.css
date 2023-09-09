@@ -52,6 +52,10 @@ div.menu{
     width: calc(4vw);
     cursor: pointer;
 }
+div.menu:hover{
+    height: calc(5vh);
+    width: calc(5vw);
+}
 img.menu{
     display: inherit;
     position: inherit;
@@ -129,6 +133,12 @@ div.cutmenu{
         left: calc(87vw);
         top: calc(3.5vh);
         width: calc(6vw);
+    }
+    div.menu:hover{
+        left: calc(86.8vw);
+        top: calc(2vh);
+        width: calc(8vw);
+        transition: 0.5s ease;
     }
     ol.navol2{
         display: none;
@@ -233,6 +243,9 @@ div.cutmenu{
     li.navli{
         padding-left: calc(1vw);
     }
+    li.navli:hover{
+        font-size: calc(1.5vh);
+    }
     div.icon{
         font-size: calc(4vh);
     }
@@ -258,6 +271,9 @@ div.cutmenu{
         display: flex;
         font-size: calc(1.5vh);
         margin: calc(2vh) calc(0vw) calc(1.5vh) calc(57vw);
+    }
+    li.navli:hover{
+        font-size: calc(2vh);
     }
     div.icon{
         font-size: calc(4vh);
@@ -305,6 +321,9 @@ div.cutmenu{
     }
     li.navli{
         margin-bottom: calc(2vh);
+    }
+    li.navli:hover{
+        font-size: calc(2.5vh);
     }
     div.icon{
         font-size: calc(5.3vh);

@@ -1,3 +1,6 @@
+
+
+
 function menuButton(){
     let navlist = document.getElementById("navol2").style.display = "block";
     let cutMenu = document.getElementById("cutMenu").style.display = "flex";
